@@ -1,4 +1,4 @@
-import '../css/Services.css';
+import '../css/Services.css'
 
 function Services() {
   return (
@@ -11,79 +11,50 @@ function Services() {
 
         <div className="service-card">
           <div className="service-card-img-wrapper">
-            <img src="/service-vet.png" alt="veterinary services" className="service-image" />
+            <img src="/images/service-vet.png" alt="veterinary services" className="service-image"/>
           </div>
           <h3 className="service-title">veterinary service</h3>
-          <p className="service-description">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove.
-          </p>
+          <p className="service-description">Far far away…</p>
         </div>
 
         <div className="service-card">
           <div className="service-card-img-wrapper">
-            <img src="/service-horse-grooming.png" alt="horse grooming" className="service-image" />
+            <img src="/images/service-horse-grooming.png" alt="horse grooming" className="service-image"/>
           </div>
           <h3 className="service-title">horse grooming</h3>
-          <p className="service-description">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove.
-          </p>
         </div>
 
         <div className="service-card">
           <div className="service-card-img-wrapper">
-            <img src="/service-horse-training.png" alt="horse training" className="service-image" />
+            <img src="/images/service-horse-training.png" alt="horse training" className="service-image"/>
           </div>
           <h3 className="service-title">horse training</h3>
-          <p className="service-description">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove.
-          </p>
         </div>
 
         <div className="service-card">
           <div className="service-card-img-wrapper">
-            <img src="/service-horse-feeding.png" alt="horse feeding" className="service-image" />
+            <img src="/images/service-horse-feeding.png" alt="horse feeding" className="service-image"/>
           </div>
           <h3 className="service-title">horse feeding</h3>
-          <p className="service-description">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove.
-          </p>
         </div>
 
         <div className="service-card">
           <div className="service-card-img-wrapper">
-            <img src="/service-horse-santuary.png" alt="sanctuary for horses" className="service-image" />
+            <img src="/images/service-horse-santuary.png" alt="sanctuary for horses" className="service-image"/>
           </div>
           <h3 className="service-title">Sanctuary for horses</h3>
-          <p className="service-description">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove.
-          </p>
         </div>
 
         <div className="service-card">
           <div className="service-card-img-wrapper">
-            <img src="/service-horse-tracking.png" alt="digital tracking" className="service-image" />
+            <img src="/images/service-horse-tracking.png" alt="digital tracking" className="service-image"/>
           </div>
           <h3 className="service-title">digital tracking</h3>
-          <p className="service-description">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove.
-          </p>
         </div>
 
       </div>
     </section>
-  );
+  )
 }
 
 export default Services;

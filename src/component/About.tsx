@@ -1,4 +1,4 @@
-import '../css/About.css';
+import '../css/About.css'
 
 function About() {
   return (
@@ -21,13 +21,13 @@ function About() {
       </div>
       <div className="about-img-wrapper">
         <img
-          src="/about-img.jpg"
+          src="/images/about-img.jpg"
           alt="horse running"
           className="about-img-image"
         />
       </div>
     </section>
-  );
+  )
 }
 
 export default About;
