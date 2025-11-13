@@ -1,6 +1,6 @@
 import '../css/Header.css'
 import { FaPhone, FaPaperPlane } from "react-icons/fa";
-import horse from '../assets/images/horse.png'
+import horseLogo from '../assets/images/horse.png'
 function Header(){
     return(
         <header className="header">
@@ -16,7 +16,7 @@ function Header(){
 
         
         <div className="logo">
-          <img src={horse}/>
+          <img src={horseLogo}/>
           <p className="logo-text">horse club</p>
         </div>
        
