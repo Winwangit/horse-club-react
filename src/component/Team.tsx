@@ -1,26 +1,20 @@
-import '../css/Team.css'
-import {FaInstagram,FaTwitter,FaFacebook,FaGoogle   } from "react-icons/fa";
-import staffIrene from '../assets/images/staff-irene.jpg'
-import staffBrian from '../assets/images/staff-brian.jpg'
-import staffBabra from '../assets/images/staff-babra.jpg'
-import staffGeorge from '../assets/images/staff-george.jpg'
-import staffLinnet from '../assets/images/staff-linnet.jpg'
-import staffJoshua from '../assets/images/staff-joshua.jpg'
+import '../css/Team.css';
+import { FaInstagram, FaTwitter, FaFacebook, FaGoogle } from "react-icons/fa";
 
-function Team(){
-    return(
-         <section className="team-section" id="team">
+function Team() {
+  return (
+    <section className="team-section" id="team">
       <div className="title">
         <p className="title-sub">team</p>
         <h2 className="title-main">our team</h2>
       </div>
       <div className="team-members-container">
-        
+
         <div className="team-member-card">
           <div className="team-member-image-wrapper">
             <img
-              src={staffIrene}
-              alt="A head-shot of irene"
+              src="/staff-irene.jpg"
+              alt="A head-shot of Irene"
               className="team-member-image"
             />
           </div>
@@ -28,175 +22,79 @@ function Team(){
             <h3 className="team-member-name">Irene Mutuku</h3>
             <p className="team-member-position">CEO, Founder</p>
             <div className="team-member-socials">
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaInstagram />
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-            <FaTwitter />
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaGoogle/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaFacebook/>
-              </a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaInstagram /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaTwitter /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaGoogle /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaFacebook /></a>
             </div>
           </div>
         </div>
-        
+
         <div className="team-member-card">
           <div className="team-member-image-wrapper">
             <img
-              src={staffBrian}
-              alt="A head-shot of irene"
+              src="/staff-brian.jpg"
+              alt="A head-shot of Brian"
               className="team-member-image"
             />
           </div>
           <div className="team-member-information">
             <h3 className="team-member-name">Brian Nzioka</h3>
-            <p className="team-member-position">horse groomer</p>
+            <p className="team-member-position">Horse Groomer</p>
             <div className="team-member-socials">
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaInstagram/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-               <FaTwitter/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaFacebook/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-              <FaGoogle/>
-              </a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaInstagram /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaTwitter /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaFacebook /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaGoogle /></a>
             </div>
           </div>
         </div>
-        
+
         <div className="team-member-card">
           <div className="team-member-image-wrapper">
             <img
-              src={staffBabra}
+              src="/staff-babra.jpg"
               alt="A head-shot of Babra"
               className="team-member-image"
             />
           </div>
           <div className="team-member-information">
-            <h3 className="team-member-name">Babra obare</h3>
+            <h3 className="team-member-name">Babra Obare</h3>
             <p className="team-member-position">IT Support</p>
             <div className="team-member-socials">
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaInstagram/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaTwitter/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaFacebook/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaGoogle/>
-              </a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaInstagram /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaTwitter /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaFacebook /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaGoogle /></a>
             </div>
           </div>
         </div>
-        
+
         <div className="team-member-card">
           <div className="team-member-image-wrapper">
             <img
-              src={staffGeorge}
-              alt="A head-shot of Fleeky"
+              src="/staff-george.jpg"
+              alt="A head-shot of Fleeky George"
               className="team-member-image"
             />
           </div>
           <div className="team-member-information">
             <h3 className="team-member-name">Fleeky George</h3>
-            <p className="team-member-position">horse trainer</p>
+            <p className="team-member-position">Horse Trainer</p>
             <div className="team-member-socials">
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaInstagram/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-              <FaTwitter/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaFacebook/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaGoogle/>
-              </a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaInstagram /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaTwitter /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaFacebook /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaGoogle /></a>
             </div>
           </div>
         </div>
-        
+
         <div className="team-member-card">
           <div className="team-member-image-wrapper">
             <img
-              src={staffLinnet}
-              alt="A head-shot of Linet"
+              src="/staff-linnet.jpg"
+              alt="A head-shot of Linnet"
               className="team-member-image"
             />
           </div>
@@ -204,84 +102,37 @@ function Team(){
             <h3 className="team-member-name">Linnet Wanjiku</h3>
             <p className="team-member-position">Human Resource</p>
             <div className="team-member-socials">
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaInstagram/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaTwitter/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaFacebook/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaGoogle/>
-              </a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaInstagram /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaTwitter /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaFacebook /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaGoogle /></a>
             </div>
           </div>
         </div>
-        
+
         <div className="team-member-card">
           <div className="team-member-image-wrapper">
             <img
-              src={staffJoshua}
-              alt="A head-shot of joshua"
+              src="/staff-joshua.jpg"
+              alt="A head-shot of Joshua"
               className="team-member-image"
             />
           </div>
           <div className="team-member-information">
-            <h3 className="team-member-name">Joshua kimani</h3>
-            <p className="team-member-position">horse sanctuary</p>
+            <h3 className="team-member-name">Joshua Kimani</h3>
+            <p className="team-member-position">Horse Sanctuary</p>
             <div className="team-member-socials">
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-               <FaInstagram/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaTwitter/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaFacebook/>
-              </a>
-              <a
-                href="https://github.com/Winwangit"
-                target="_blank"
-                className="team-member-social-url"
-              >
-                <FaGoogle/>
-              </a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaInstagram /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaTwitter /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaFacebook /></a>
+              <a href="https://github.com/Winwangit" target="_blank" className="team-member-social-url"><FaGoogle /></a>
             </div>
           </div>
         </div>
-        
+
       </div>
     </section>
-    )
+  );
 }
+
 export default Team;

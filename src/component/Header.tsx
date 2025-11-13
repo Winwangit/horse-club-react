@@ -1,34 +1,30 @@
-import '../css/Header.css'
+import '../css/Header.css';
 import { FaPhone, FaPaperPlane } from "react-icons/fa";
-import horseLogo from '../assets/images/horse.png'
-function Header(){
-    return(
-        <header className="header">
+
+function Header() {
+  return (
+    <header className="header">
       <div className="header-top">
-      
         <div className="header-contact">
           <span className="header-contact-icon">
-            <FaPaperPlane/>
+            <FaPaperPlane />
           </span>
           <p className="header-contact-text">info@horseclub.com</p>
         </div>
-    
 
-        
         <div className="logo">
-          <img src={horseLogo}/>
+          <img src="/horse.png" alt="Horse logo" />
           <p className="logo-text">horse club</p>
         </div>
-       
 
         <div className="header-contact">
           <p className="header-contact-text">+254 546 879 12</p>
           <span className="header-contact-icon">
-            <FaPhone/>
+            <FaPhone />
           </span>
         </div>
-        
       </div>
+
       <div className="header-bottom">
         <nav>
           <ul className="nav-list">
@@ -54,8 +50,7 @@ function Header(){
         </nav>
       </div>
     </header>
-    )
+  );
 }
+
 export default Header;
-
-

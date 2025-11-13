@@ -1,26 +1,17 @@
-import '../css/Blog.css'
-import blogImg1 from '../assets/images/blog-img-1.jpg'
-import blogImg2 from '../assets/images/blog-img-2.jpg'
-import blogImg3 from '../assets/images/blog-img-3.jpg'
-import blogImg4 from '../assets/images/blog-img-4.jpg'
-import blogImg5 from '../assets/images/blog-img-5.jpg'
-import blogImg6 from '../assets/images/blog-img-6.jpg'
-function Blog(){
-    return(
-         <section className="blog-section" id="blog">
+import '../css/Blog.css';
+
+function Blog() {
+  return (
+    <section className="blog-section" id="blog">
       <div className="title">
         <p className="title-sub">latest from our blog</p>
         <h2 className="title-main">our blog</h2>
       </div>
       <div className="blog-cards-container">
-       
+
         <div className="blog-card">
           <div className="blog-card-img-wrapper">
-            <img
-              src={blogImg1}
-              alt="featured image"
-              className="blog-card-featured-image"
-            />
+            <img src="/blog-img-1.jpg" alt="featured image" className="blog-card-featured-image" />
           </div>
           <div className="blog-card-chips-container">
             <a href="#" className="blog-card-chip">travel</a>
@@ -30,9 +21,7 @@ function Blog(){
             <h3 className="blog-card-title-title">Lorem ipsum dolor sit amet.</h3>
           </a>
           <p className="blog-synopsis">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
-            aspernatur voluptas repellat similique odio eveniet aliquam quam
-            animi beatae eligendi.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam aspernatur voluptas repellat similique odio eveniet aliquam quam animi beatae eligendi.
           </p>
           <div className="blog-card-meta-information">
             <div className="blog-card-meta">
@@ -45,30 +34,22 @@ function Blog(){
             </div>
           </div>
         </div>
-        
+
         <div className="blog-card">
           <div className="blog-card-img-wrapper">
-            <img
-              src={blogImg2}
-              alt="featured image"
-              className="blog-card-featured-image"
-            />
+            <img src="/blog-img-2.jpg" alt="featured image" className="blog-card-featured-image" />
           </div>
           <div className="blog-card-chips-container">
             <a href="#" className="blog-card-chip">travel</a>
             <a href="#" className="blog-card-chip">lifestyle</a>
             <a href="#" className="blog-card-chip">animals</a>
-            <a href="#" className="blog-card-chip">accomodation</a>
+            <a href="#" className="blog-card-chip">accommodation</a>
           </div>
           <a href="#" className="blog-card-title">
-            <h3 className="blog-card-title-title">
-              amet consectetur adipisicing elit
-            </h3>
+            <h3 className="blog-card-title-title">amet consectetur adipisicing elit</h3>
           </a>
           <p className="blog-synopsis">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
-            aspernatur voluptas repellat similique odio eveniet aliquam quam
-            animi beatae eligendi.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam aspernatur voluptas repellat similique odio eveniet aliquam quam animi beatae eligendi.
           </p>
           <div className="blog-card-meta-information">
             <div className="blog-card-meta">
@@ -81,14 +62,10 @@ function Blog(){
             </div>
           </div>
         </div>
-        
+
         <div className="blog-card">
           <div className="blog-card-img-wrapper">
-            <img
-              src={blogImg3}
-              alt="featured image"
-              className="blog-card-featured-image"
-            />
+            <img src="/blog-img-3.jpg" alt="featured image" className="blog-card-featured-image" />
           </div>
           <div className="blog-card-chips-container">
             <a href="#" className="blog-card-chip">travel</a>
@@ -99,9 +76,7 @@ function Blog(){
             <h3 className="blog-card-title-title">eveniet aliquam quam animi</h3>
           </a>
           <p className="blog-synopsis">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
-            aspernatur voluptas repellat similique odio eveniet aliquam quam
-            animi beatae eligendi.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam aspernatur voluptas repellat similique odio eveniet aliquam quam animi beatae eligendi.
           </p>
           <div className="blog-card-meta-information">
             <div className="blog-card-meta">
@@ -114,27 +89,19 @@ function Blog(){
             </div>
           </div>
         </div>
-        
+
         <div className="blog-card">
           <div className="blog-card-img-wrapper">
-            <img
-              src={blogImg4}
-              alt="featured image"
-              className="blog-card-featured-image"
-            />
+            <img src="/blog-img-4.jpg" alt="featured image" className="blog-card-featured-image" />
           </div>
           <div className="blog-card-chips-container">
             <a href="#" className="blog-card-chip">accommodation</a>
           </div>
           <a href="#" className="blog-card-title">
-            <h3 className="blog-card-title-title">
-              similique odio eveniet aliquam quam
-            </h3>
+            <h3 className="blog-card-title-title">similique odio eveniet aliquam quam</h3>
           </a>
           <p className="blog-synopsis">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
-            aspernatur voluptas repellat similique odio eveniet aliquam quam
-            animi beatae eligendi.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam aspernatur voluptas repellat similique odio eveniet aliquam quam animi beatae eligendi.
           </p>
           <div className="blog-card-meta-information">
             <div className="blog-card-meta">
@@ -147,28 +114,20 @@ function Blog(){
             </div>
           </div>
         </div>
-        
+
         <div className="blog-card">
           <div className="blog-card-img-wrapper">
-            <img
-              src={blogImg5}
-              alt="featured image"
-              className="blog-card-featured-image"
-            />
+            <img src="/blog-img-5.jpg" alt="featured image" className="blog-card-featured-image" />
           </div>
           <div className="blog-card-chips-container">
             <a href="#" className="blog-card-chip">lifestyle</a>
             <a href="#" className="blog-card-chip">animals</a>
           </div>
           <a href="#" className="blog-card-title">
-            <h3 className="blog-card-title-title">
-              similique odio eveniet aliquam quam
-            </h3>
+            <h3 className="blog-card-title-title">similique odio eveniet aliquam quam</h3>
           </a>
           <p className="blog-synopsis">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
-            aspernatur voluptas repellat similique odio eveniet aliquam quam
-            animi beatae eligendi.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam aspernatur voluptas repellat similique odio eveniet aliquam quam animi beatae eligendi.
           </p>
           <div className="blog-card-meta-information">
             <div className="blog-card-meta">
@@ -181,14 +140,10 @@ function Blog(){
             </div>
           </div>
         </div>
-        
+
         <div className="blog-card">
           <div className="blog-card-img-wrapper">
-            <img
-              src={blogImg6}
-              alt="featured image"
-              className="blog-card-featured-image"
-            />
+            <img src="/blog-img-6.jpg" alt="featured image" className="blog-card-featured-image" />
           </div>
           <div className="blog-card-chips-container">
             <a href="#" className="blog-card-chip">lifestyle</a>
@@ -199,9 +154,7 @@ function Blog(){
             <h3 className="blog-card-title-title">quam animi beatae eligendi.</h3>
           </a>
           <p className="blog-synopsis">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
-            aspernatur voluptas repellat similique odio eveniet aliquam quam
-            animi beatae eligendi.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam aspernatur voluptas repellat similique odio eveniet aliquam quam animi beatae eligendi.
           </p>
           <div className="blog-card-meta-information">
             <div className="blog-card-meta">
@@ -214,10 +167,10 @@ function Blog(){
             </div>
           </div>
         </div>
-        
+
       </div>
     </section>
-    )
+  );
 }
 
 export default Blog;

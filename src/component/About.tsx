@@ -1,8 +1,8 @@
-import '../css/About.css'
-import aboutimg from '../assets/images/about-img.jpg'
-function About(){
-    return(
-        <section className="about-section" id="about">
+import '../css/About.css';
+
+function About() {
+  return (
+    <section className="about-section" id="about">
       <div className="about-textbox">
         <p className="about-text-subtitle">
           We are here to take care of your horses
@@ -15,19 +15,19 @@ function About(){
           et nemo odio laudantium modi nihil vel consectetur magnam excepturi
           quis quasi enim omnis incidunt veniam aut esse, error impedit dolores.
         </p>
-        <a href="https://github.com/Winwangit" target="_blank" className="about-cta"
-          >get started now</a
-        >
+        <a href="https://github.com/Winwangit" target="_blank" className="about-cta">
+          get started now
+        </a>
       </div>
       <div className="about-img-wrapper">
         <img
-          src={aboutimg}
+          src="/about-img.jpg"
           alt="horse running"
           className="about-img-image"
         />
       </div>
     </section>
-    )
-    }
-    export default About;
-        
+  );
+}
+
+export default About;
